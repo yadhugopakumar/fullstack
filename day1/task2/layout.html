@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    *,
+    body {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    header {
+        background-color: rgb(230, 128, 255);
+        width: 100vw;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    header h1 {
+        color: white;
+        padding: 20px 0 20px 50px;
+    }
+</style>
+
+<body>
+    <header>
+        <h1>logo</h1>
+        <ul>
+            <li>Home</li>
+            <li>Our Team</li>
+            <li>Projects</li>
+            <li>Contact</li>
+        </ul>
+        <form action="get">
+            <input type="Search something ...">
+            <button type="submit">Search</button>
+        </form>
+    </header>
+
+    <main>
+        <div class="hero">
+            <video src="vid.mp4" autoplay muted loop width="100%"></video>
+        </div>
+        <article>
+            <h2>Article Title1</h2>
+            <section>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum corporis deleniti beatae autem sint
+                    expedita dicta pariatur tempore quisquam, sit deserunt. Laboriosam repellat commodi adipisci
+                    blanditiis
+                    fuga, rem dignissimos architecto!</p>
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores iure corporis minus magni quod,
+                    itaque
+                    corrupti eveniet, in magnam ab rerum quidem error eaque? Quod suscipit modi nulla voluptate totam?
+                </p>
+
+            </section>
+        </article>
+        <article>
+            <table border="2" cellspacing="2" width="350">
+                <tr>
+                    <th>Day</th>
+                    <th>Item</th>
+                    <th>Cost</th>
+                </tr>
+                <tr>
+                    <td>Monday</td>
+                    <td>Groceries</td>
+                    <td>50</td>
+                </tr>
+                <tr>
+                    <td rowspan="2">Tuesday</td>
+                    <td>Gas</td>
+                    <td>120</td>
+                </tr>
+                <tr>
+                    <td>Lunch</td>
+                    <td>75</td>
+                </tr>
+                <tr>
+                    <td>Wednesday</td>
+                    <td>Coffie</td>
+                    <td>5</td>
+                </tr>
+                <tr>
+                    <td colspan="2">Total Week's Expenses</td>
+                    <td>95</td>
+                </tr>
+
+            </table>
+        </article>
+    </main>
+
+
+    <footer>
+        this is footer section
+    </footer>
+</body>
+
+</html>
